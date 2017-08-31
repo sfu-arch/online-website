@@ -1,0 +1,30 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: index.html
+
+- title: Projects
+  url: Project/
+
+- title: People
+  url: People/
+
+- title: Publications
+  url: Publication/
+
+- title: Posts
+  url: Post/
+
+- title: Software
+  url: Software/
+
+#- title: Submissions
+  #sublinks:
+    #- title: Call for Papers
+      #url: CFP/
+    #- title: Call for Workshops
+      #url: public/downloads/CFP_Workshop_Tutorial.pdf
+    #- title: Submission Instructions
+      #url: Submission/
+    #- title: Submission Site
+      #url: Site/
