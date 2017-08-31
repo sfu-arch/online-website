@@ -1,27 +1,11 @@
-# Sample- 
+# Sample-
 # - name: (requried)
 #   url:  (optional)
 #   picture_url: (recommended)
 # please make sure you add a dash at first
 
-- name: Wasifa Chowdhury
-  url: https://sites.google.com/site/wasifachowdhury
-  picture_url: https://sites.google.com/site/wasifachowdhury/home/DSC_0509%20%282%29.JPG
-
-- name: Nishant Kambhatla
-
-- name: Vivian Kou
-
-- name: Khoa Tran
-  url: http://www.sfu.ca/~khoat
-  picture_url: https://avatars0.githubusercontent.com/u/8714646
-
-- name: Andrei Vacariu
-  url: https://avacariu.me
-  picture_url: https://avacariu.me/images/profile-photo-185.jpg 
-
-
-
-
-
-
+- name: Steve Margerm
+  url: https://www.linkedin.com/in/steve-margerm-3594561/
+  picture_url: https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/1ba/012/0ca9de7.jpg
+  # url: https://sites.google.com/site/wasifachowdhury
+  # picture_url: https://sites.google.com/site/wasifachowdhury/home/DSC_0509%20%282%29.JPG
