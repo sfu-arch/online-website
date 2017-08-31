@@ -1,4 +1,5 @@
-url: "http://natlang.cs.sfu.ca"
+url: "/home/amirali/git/sfu-natlang.github.io/_site"
+#url: "http://natlang.cs.sfu.ca"
 baseurl: ""
 exclude: ['README.md']
 timezone: US/Pacific
