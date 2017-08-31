@@ -24,3 +24,7 @@ hr.style1 {
 p.border {
   font-size: 17px;
 }
+
+iframe.deadline {
+  /*position:absolute;*/
+}
