@@ -1,5 +1,7 @@
 exclude: ['README.md']
 timezone: US/Pacific
 markdown: kramdown
+title: Amirali Sharifian Resume
 url: "http://127.0.0.1:4000/"
+baseurl: ''
 permalink: posts/:year-:month-:day-:title
