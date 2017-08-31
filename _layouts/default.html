@@ -8,25 +8,18 @@ layout: compress
 
     {%include navigation.html %}
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 contentarea" style="margin-top:10pt">
-        <div class="container">
-          <div class="row">
-            {% if page.title %}
-            <header class="pageheader">
-              <h1>{{ page.title }}</h1>
-            </header>
-            {% endif %} {{ content }}
-          </div>
-        </div>
+    <div class="wrapper">
+      {% include sidebar.html %}
+
+      <div class="main-wrapper">
+        
+        {{content}}
+
+        {% include footer.html %}
+        {% include scripts.html %}
       </div>
     </div>
-  </div>
 
-{% include footer.html %}
-
-{% include scripts.html %}
 
 
 </body>
