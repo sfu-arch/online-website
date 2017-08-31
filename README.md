@@ -1,17 +1,12 @@
-SFU Natural Language Lab website 
+SFU Architecture Lab website 
 =====================
 
-http://sfu-natlang.github.io
+http://sfu-arch.github.io
 
-Source files for the SFU natural language lab website using Jekyll
+Source files for the SFU Computer Architecture lab website using Jekyll
 for content and Bootstrap for markup plus some custom Javascript.
 
 ## Web version
-
-This website is hosted on Github Pages in the following repository:
-
-    https://github.com/sfu-natlang/sfu-natlang.github.io.git
-    git@github.com:sfu-natlang/sfu-natlang.github.io.git
 
 If you have write access to this repository then to update the web
 version all you need to do is update the repository, commit your
