@@ -23,16 +23,13 @@ root: ./
 -->
     </div> <!-- end of row of header-->
 
-    <div class="row">
-      <h1>About</h1>
-      Our lab focuses on research in systems, networking and architecture.
-      We are working on projects related to media streaming, peer-to-peer systems, wireless sensor networks, multicore computing, operating systems, virtual machine technology, video game engines and more.
-      We are always looking for bright graduate and undergraduate students to join our lab. Feel free to contact us if have superb educational background, strong leadership qualities and enjoy systems or networks.
-      (Lab flyer.)
 
-    </div>
 
-    <hr class="style1">
+    {% include about.html %}
+
+    <hr class="style1" style="
+        margin-top: 50px;
+        margin-bottom: 10px;">
 
     <div class="row" >  <!-- row of first page content-->
       <div class="col-md-6" > <!-- news-->
@@ -64,7 +61,7 @@ root: ./
 
       <div class="col-md-6">
         <h1>Recent Publications</h1>
-        <div class="more">
+        <div class="more publications">
           <ul class="navigate">
             <li><a href="{{ site.url }}{{ site.baseurl }}/publications/index.html">All publications</a></li>
           </ul>
@@ -132,7 +129,7 @@ root: ./
           <br>
           <span>
               <div class="abstractdata alert alert-info collapse closed" role="alert"><b>Abstract : </b><span class="abstract"></span></div>
-              <div class="bibtexdata alert alert-success collapse closed" role="alert"><b>Bibtex : </b><span class="bibtex"></span></div>
+              <div class="bibtexdata alert alert-success collapse closed smallbib" role="alert"><b>Bibtex : </b><span class="bibtex"></span></div>
           </span>
           <br>
 
@@ -147,6 +144,9 @@ root: ./
     </div>
   </div>
 
+<hr class="style1" style="
+    margin-top: 50px;
+    margin-bottom: 10px;">
 
 <div class="row">
   <h1>Deadlines</h1>

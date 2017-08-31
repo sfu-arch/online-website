@@ -17,7 +17,7 @@ body {
 
 hr.style1 {
   border: 0;
-  height: 1px;
+  height: 1.5px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
@@ -27,4 +27,34 @@ p.border {
 
 iframe.deadline {
   /*position:absolute;*/
+}
+
+.publications {
+  font-size: 14px;
+}
+
+.smallbib {
+  font-size: 10px;
+}
+
+li.head {
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  padding-right: 5pt;
+}
+
+a.head {
+  color: #fff;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  font-size: 14pt;
+  color: #fff
 }
