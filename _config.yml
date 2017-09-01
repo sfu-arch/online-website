@@ -1,5 +1,5 @@
 url: 'https://sfu-archi.github.io'
-baseurl: 'https://sfu-archi.github.io'
+baseurl: ''
 exclude: ['README.md']
 timezone: US/Pacific
 
