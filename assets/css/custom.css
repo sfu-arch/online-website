@@ -6,7 +6,7 @@ body {
 }
 
 .navbar-default{
-  background-color: #222;
+  background-color: #24292e;
 }
 
 .h-scroll {
@@ -45,6 +45,17 @@ li.head {
 
 a.head {
   color: #fff;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+h2.logo {
+  margin-top: 0pt;
+  text-align: center;
+  font-weight: bold;
 }
 
 .navbar .navbar-nav {
