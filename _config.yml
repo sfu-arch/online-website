@@ -1,6 +1,11 @@
 url: "https://sfu-archi.github.io"
-baseurl: ""
+baseurl: "https://sfu-archi.github.io"
 exclude: ['README.md']
 timezone: US/Pacific
-markdown: kramdown
+
 permalink: posts/:year-:month-:day-:title
+
+markdown:         kramdown
+highlighter:      rouge
+
+permalink:        pretty
