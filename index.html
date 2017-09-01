@@ -4,11 +4,22 @@ pageclass: frontpage
 custom_js: top_publications
 root: ./
 ---
-    <div class="row text-center" > <!-- row of header-->
-        <div class="container-fluid">
-            <img src="images/lab_members.jpg" width="70%"/>
-        </div>
-    </div> <!-- end of row of header-->
+    <div class="row" style="padding-top: 40px;" >  <!-- row of first page content-->
+    <div class="col-md-3" style="margin-top: 30px;"> <!-- news-->
+      <img class="center" src="{{ site.baseurl }}/assets/images/sfuarch.logo.jpg" alt="Logo" style="width:170px;height:100px;">
+      <h2 class="logo" >Computer Architecture Lab</h2>
+      <p align="center" style="font-size:16pt;"><a href="http://cs.sfu.ca/">Simon Fraser University</a></p>
+    </div>
+    <div class="col-md-9">
+      <div class="row text-center" > <!-- row of header-->
+          <div class="container-fluid">
+              <img src="images/lab_members.jpg" width="70%"/>
+          </div>
+      </div> <!-- end of row of header-->
+    </div>
+  </div>
+
+
 
     {% include about.html %}
 
@@ -136,7 +147,7 @@ root: ./
 <div class="row">
   <h1>Deadlines</h1>
   <div class="col-xs-12 col-sm-12 col-md-12">
-    <iframe style="width: 930px;height: 300px;position:relative" src="http://confsearch.ethz.ch/confsearch/faces/pages/staticresults.jsp?query=pldi%20hpca%20isca%20micro%20asplos&amp;graphicView=1&amp;sortMode=1" ></iframe>
+    <iframe style="width: 1140px;height: 300px;position:relative" src="http://confsearch.ethz.ch/confsearch/faces/pages/staticresults.jsp?query=pldi%20hpca%20isca%20micro%20asplos&amp;graphicView=1&amp;sortMode=1" ></iframe>
   </div>
 </div>
         <!--end of news-->
