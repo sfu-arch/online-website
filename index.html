@@ -28,7 +28,7 @@ root: ./
         margin-bottom: 10px;">
 
     <div class="row" >  <!-- row of first page content-->
-      <div class="col-md-6" > <!-- news-->
+      <!-- <div class="col-md-6" >
         <h1>News</h1>
         <div class="more">
           <ul class="navigate">
@@ -44,18 +44,15 @@ root: ./
           </ul>
         </div>
         <div class="container-fluid h-scroll">
-        <!-- <div class="panel panel-info" style="padding:  0.5em;" width:"200px"> -->
         {% for post in site.posts limit:5 %}
         <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br/> <small class="date">{{ post.date | date_to_string }}</small></h3>
         {{ post.content }}
         {% endfor %}
 
+          </div>
+        </div> -->
 
-
-          </div><!-- end of the row of first page content-->
-        </div>
-
-      <div class="col-md-6">
+      <div class="col-md-12">
         <h1>Recent Publications</h1>
         <div class="more publications">
           <ul class="navigate">

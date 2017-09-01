@@ -1,5 +1,4 @@
 url: "http://sfu-archi.github.io"
-#url: "http://natlang.cs.sfu.ca"
 baseurl: ""
 exclude: ['README.md']
 timezone: US/Pacific

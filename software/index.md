@@ -11,10 +11,10 @@ pageclass: software
 
 - [llvm-epp](https://github.com/sfu-arch/llvm-epp) - Efficient Path Profiling using LLVM
 
-- [GPGPU-Sim + Wisconsin Ruby](test.html) - Simulation infrastructure and workloads for Temporal Coherence
+- [GPGPU-Sim + Wisconsin Ruby]({{ site.baseurl }}/assets/papers/TC_HPCA_2013.pdf) - Simulation infrastructure and workloads for Temporal Coherence
 
-- [FUSION Protocol](test.html) - Simulation infrastructure for modelling hardware accelerator coherence
+- [FUSION Protocol]({{ site.baseurl }}/assets/papers/FUSION_ISCA_2014.pdf) - Simulation infrastructure for modelling hardware accelerator coherence
 
-- [Protoza](test.html) - Simulation infrastructure for modelling hardware accelerator coherence
+- [Protoza]({{ site.baseurl }}/assets/papers/Protoza_ISCA_2013.pdf) - Simulation infrastructure for modelling hardware accelerator coherence
 
-- [Amoeba Cache](test.html) - Simple bootstrap simulator for amoeba cache
+- [Amoeba Cache]({{ site.baseurl }}/assets/papers/Amoeba_MICRO_2012.pdf) - Simple bootstrap simulator for amoeba cache
