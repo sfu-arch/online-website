@@ -6,7 +6,7 @@ body {
 }
 
 .navbar-default{
-  background-color: #24292e;
+  background-color: #222;
 }
 
 .h-scroll {
@@ -45,18 +45,6 @@ li.head {
 
 a.head {
   color: #fff;
-}
-
-img.center {
-    display: block;
-    margin: 0 auto;
-}
-
-h2.logo {
-  margin-top: 0pt;
-  text-align: center;
-  font-weight: bold;
-  font-size: 24pt;
 }
 
 .navbar .navbar-nav {
@@ -283,9 +271,4 @@ h2.logo {
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
-}
-
-
-body.software {
-  font-size: 15pt;
 }
